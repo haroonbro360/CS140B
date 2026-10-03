@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f2f6fa;
+}
+h1 {
+    color: #1557a6;
+}
+
+h2 {
+    color: #1557a6;
+}
+#main-title {
+    color: #0b3d91;
+}
+.highlight {
+    color: #d97706;
+}
+span {
+    color: #8a4b08;
+    font-weight: bold;
+}
