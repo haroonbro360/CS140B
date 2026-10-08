@@ -1,0 +1,15 @@
+img {
+    width: 400px;
+}
+body {
+    background-color: #e8dcc8;
+    background-image: url("bluebg.jpg");
+    background-repeat: repeat;
+}
+header {
+    background: white url("redFlowerSmall.png") no-repeat right top;
+    padding: 40px;
+}
+ul {
+    list-style-image: url("dot.png");
+}
