@@ -1,0 +1,25 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline-color: rgb(127, 255, 172);
+
+}
+* {
+    outline: thin solid;
+    outline-color: brown;
+}
+.p1 {
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+.p2 {
+    margin: 20px;
+    padding: 30px;
+    border-width: 10px;
+    border-color: blue;
+    border-style: dotted;
+}
+.p3 {
+    border: thin solid black;
+    padding: 50px 10px;
+}
