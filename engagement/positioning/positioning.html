@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning - Laie, Hawaii</title>
+    <link rel="stylesheet" href="positioning.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Exploring Laie, Hawaii</h1>
+        <p>Learning CSS Box Positioning</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="home">
+
+        <h2>Welcome to Laie</h2>
+
+        <figure class="float-left">
+            <img src="Laie hawaii temple.jpg.jpg"
+                 alt="Laie Hawaii Temple">
+            <figcaption>Laie Hawaii Temple</figcaption>
+        </figure>
+
+        <p>
+            Laie is a beautiful town on the north shore of Oahu, Hawaii.
+            It is known for its beaches, green scenery, and peaceful
+            environment. Many people visit Laie to enjoy its natural beauty.
+        </p>
+
+        <h2 class="clear">The Beauty of Laie</h2>
+
+        <p>
+            Laie has beautiful places to visit with family and friends.
+            Visitors can enjoy the ocean, take pictures, and learn about
+            Hawaiian culture. The town has a friendly and welcoming feeling.
+        </p>
+
+        <p>
+            The Laie Hawaii Temple is an important landmark in the town.
+            It belongs to The Church of Jesus Christ of Latter-day Saints.
+            Its gardens and architecture make the area beautiful.
+        </p>
+
+        <h2>Relative Positioning</h2>
+
+        <p>
+            CSS positioning helps web designers move boxes around a page.
+            Relative positioning moves an element from its normal position,
+            but its original space remains reserved.
+        </p>
+
+        <figure class="relative">
+            <img src="Laie hawaii temple.jpg.jpg"
+                 alt="Temple image moved with relative positioning">
+            <figcaption>Relative positioning</figcaption>
+        </figure>
+
+        <h2>Absolute Positioning</h2>
+
+        <p>
+            Absolute positioning moves an element out of normal flow.
+            It can be placed using top, bottom, left, and right values.
+            It is positioned relative to its nearest positioned ancestor.
+        </p>
+
+        <figure class="absolute">
+            <img src="Laie hawaii temple.jpg.jpg"
+                 alt="Temple image moved with absolute positioning">
+            <figcaption>Absolute positioning</figcaption>
+        </figure>
+
+        <h2>Fixed Positioning</h2>
+
+        <p>
+            Fixed positioning keeps an element in the same place on the
+            screen while the user scrolls. It can be useful for small
+            buttons or other elements that should remain visible.
+        </p>
+
+        <figure class="fixed">
+            <img src="Laie hawaii temple.jpg.jpg"
+                 alt="Temple image moved with fixed positioning">
+            <figcaption>Fixed</figcaption>
+        </figure>
+
+        <h2 id="about">Questions and Answers</h2>
+
+        <h3>1. What is normal flow in HTML?</h3>
+        <p>
+            Normal flow is the default way elements are arranged on a
+            webpage. Block elements appear from top to bottom, and inline
+            elements appear next to each other.
+        </p>
+
+        <h3>2. What does float do? Why do you need to clear the float?</h3>
+        <p>
+            Float moves an element to the left or right and allows text to
+            wrap around it. Clear makes later content start below the float
+            when needed.
+        </p>
+
+        <h3>3. What do absolute, fixed, and relative do?</h3>
+        <p>
+            Relative moves an element from its normal position. Absolute
+            positions an element relative to its nearest positioned ancestor.
+            Fixed keeps an element in the same place on the screen while
+            scrolling.
+        </p>
+
+        <h3>4. How can you make nice navigation buttons for mobile devices?</h3>
+        <p>
+            Use CSS to make navigation links block elements, add padding,
+            give them a background color, and make them wide enough to tap
+            easily on a phone.
+        </p>
+
+        <h3>5. Where can you find videos to review what we talked about in class?</h3>
+        <p>
+            I can find videos about HTML and CSS positioning on YouTube
+            and other educational websites.
+        </p>
+
+        <p id="contact">
+            Thank you for visiting my page about Laie, Hawaii!
+        </p>
+
+    </main>
+
+    <footer>
+        <p>&copy; Haroon Suba</p>
+    </footer>
+
+</body>
+</html>
