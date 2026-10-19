@@ -1,0 +1,21 @@
+body { 
+background-color: rgb(158, 224, 239);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card {
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+
+.mommy {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    border: 2px solid;
+}
