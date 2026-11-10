@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Haroon Web design</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <form action="formprocessing.html" method="get">
+
+            <div class="form-row">
+                <label for="fullname">Full name</label>
+                <input type="text" name="fullname" id="fullname">
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-row">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+
+            <div class="form-row">
+                <label for="country">Choose your country</label>
+                <select name="country" id="country">
+                    <option>Pakistan</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <p>Choose your favorite subject:</p>
+                <input type="radio" name="subject" value="English"> English
+                <input type="radio" name="subject" value="Computer"> Computer
+                <input type="radio" name="subject" value="Math"> Math
+            </div>
+
+            <div class="form-row">
+                <p>Choose your hobbies:</p>
+                <input type="checkbox" name="hobby" value="Sports"> Sports
+                <input type="checkbox" name="hobby" value="Gaming"> Gaming
+            </div>
+
+            <div class="form-row">
+                <label for="message">About yourself:</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <div class="form-row">
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <div class="form-row">
+                <input type="submit">
+            </div>
+
+        </form>
+
+        <h1>Answers and Questions</h1>
+
+        <h3>The form tag has an "action" attribute. What does it do?</h3>
+        <p>The action attribute tells the browser where to send the information after the user submits the form.</p>
+
+        <h3>The form tag has a "method" attribute. What does it do?</h3>
+        <p>The method attribute tells the browser how to send the form information to the server.</p>
+
+        <h3>What is the difference between POST and GET?</h3>
+        <ul>
+            <li>GET sends form information in the URL. It is usually used to search or request information.</li>
+            <li>POST sends form information in the request body. It is usually used when submitting information.</li>
+        </ul>
+
+        <h3>How do you fill in a form control with a pre-set value, and how is that different from a placeholder?</h3>
+        <ul>
+            <li>Text box: Use the value attribute to put text inside the box. A placeholder gives a hint.</li>
+            <li>Textarea: Put pre-set text between the textarea tags. A placeholder gives a hint.</li>
+            <li>Select box: Use the selected attribute to select an option by default.</li>
+            <li>Checkbox: Use the checked attribute to select it by default.</li>
+            <li>Radio button: Use the checked attribute to select one option by default.</li>
+        </ul>
+        <p>Main difference: A pre-set value is information already provided in the form. A placeholder is only a hint.</p>
+
+        <h3>List all the form controls that HTML5 added. Which ones did you use?</h3>
+        <p>HTML5 added email, date, datetime-local, month, number, range, search, tel, time, url, color, and week.</p>
+        <p>I used email and date in my form.</p>
+
+    </main>
+
+    <footer>&copy; Haroon Suba</footer>
+</body>
+</html>
+
