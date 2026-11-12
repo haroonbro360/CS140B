@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <h1>Haroon Web Design</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+
+        <form action="formprocessing.html" method="get">
+
+            <fieldset>
+                <legend>Account</legend>
+
+                <div class="form-row">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="fullname">
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form-row">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>About You</legend>
+
+                <div class="form-row">
+                    <label for="country">Choose Country</label>
+                    <select name="country" id="country">
+                        <option>Pakistan</option>
+                        <option>USA</option>
+                        <option>Canada</option>
+                    </select>
+                </div>
+
+                <fieldset>
+                    <legend>Choose Your Favorite Subject</legend>
+
+                    <div class="form-row">
+                        <input type="radio" name="subject" id="english" value="English">
+                        <label for="english">English</label>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="radio" name="subject" id="computer" value="Computer">
+                        <label for="computer">Computer</label>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="radio" name="subject" id="math" value="Math">
+                        <label for="math">Math</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-row">
+                    <label for="sports">Hobbies</label>
+                    <input type="checkbox" name="hobby" id="sports" value="Sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" name="hobby" id="gaming" value="Gaming">
+                    <label for="gaming">Gaming</label>
+                </div>
+
+                <div class="form-row">
+                    <label for="message">About Yourself</label>
+                    <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+            </fieldset>
+
+            <div class="form-row">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+
+        <h2>Answers and Questions</h2>
+
+        <h3>1. What are different ways to style your form?</h3>
+        <p>We can change colors, borders, background, padding, margins, font size, and spacing. We can also use Flexbox and media queries.</p>
+
+        <h3>2. Why does the professor like to use flex?</h3>
+        <p>Flexbox helps organize labels and input fields. It makes it easier to align items and control spacing.</p>
+
+        <h3>3. What makes for a good mobile form?</h3>
+        <p>A good mobile form is easy to read and use on a small screen. It should have clear labels, enough space, and large buttons.</p>
+
+    </main>
+
+    <footer>&copy; Haroon Suba</footer>
+
+</body>
+</html>
+
