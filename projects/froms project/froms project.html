@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Club Registration</title>
+    <link rel="stylesheet" href="froms project.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Club Registration</h1>
+        <p>Join our club and meet new people!</p>
+    </header>
+
+    <main>
+
+        <h2>Registration Form</h2>
+
+        <form action="#" method="post">
+
+            <div class="form-row">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name">
+            </div>
+
+            <div class="form-row">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password">
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com">
+            </div>
+
+            <div class="form-row">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-row">
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+
+            <div class="form-row">
+                <label for="year">Year of Study:</label>
+                <select id="year" name="year">
+                    <option value="">Choose your year</option>
+                    <option value="freshman">Freshman</option>
+                    <option value="sophomore">Sophomore</option>
+                    <option value="junior">Junior</option>
+                    <option value="senior">Senior</option>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Choose Your Interests</legend>
+
+                <div class="choice">
+                    <input type="checkbox" id="sports" name="interests" value="sports">
+                    <label for="sports">Sports</label>
+                </div>
+
+                <div class="choice">
+                    <input type="checkbox" id="music" name="interests" value="music">
+                    <label for="music">Music</label>
+                </div>
+
+                <div class="choice">
+                    <input type="checkbox" id="technology" name="interests" value="technology">
+                    <label for="technology">Technology</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferred Meeting Time</legend>
+
+                <div class="choice">
+                    <input type="radio" id="morning" name="meeting" value="morning">
+                    <label for="morning">Morning</label>
+                </div>
+
+                <div class="choice">
+                    <input type="radio" id="afternoon" name="meeting" value="afternoon">
+                    <label for="afternoon">Afternoon</label>
+                </div>
+
+                <div class="choice">
+                    <input type="radio" id="evening" name="meeting" value="evening">
+                    <label for="evening">Evening</label>
+                </div>
+            </fieldset>
+
+            <div class="form-row">
+                <label for="message">Why do you want to join?</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your answer here..."></textarea>
+            </div>
+
+            <div class="choice terms">
+                <input type="checkbox" id="agree" name="agree" value="yes">
+                <label for="agree">I agree to the club rules.</label>
+            </div>
+
+            <button type="submit">Submit Registration</button>
+
+        </form>
+
+    </main>
+
+    <footer>&copy; Haroon Suba</footer>
+
+</body>
+</html>
