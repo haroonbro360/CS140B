@@ -18,7 +18,7 @@
 
         <h2>Registration Form</h2>
 
-        <form action="#" method="post">
+        <form id="signup-form" action="#" method="post">
 
             <div class="form-row">
                 <label for="fullname">Full Name:</label>
@@ -111,6 +111,44 @@
     </main>
 
     <footer>&copy; Haroon Suba</footer>
+     <script>
+const form = document.getElementById("signup-form");
+
+console.log(form);
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+
+    const formData = {
+        email: email,
+        password: password
+    };
+
+    if (email === "" || password === "") {
+        console.log("Please enter your email and password.");
+        alert("Please enter your email and password.");
+    } else {
+        fetch("submit.json", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.message);
+            alert(data.message);
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+    }
+});
+</script>
 
 </body>
 </html>
