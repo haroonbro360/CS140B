@@ -1,3 +1,4 @@
 {
-  "message": "You have signed up"
+    "status": "success",
+    "message": "Your information was received."
 }
