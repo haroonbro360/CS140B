@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Beautiful Hawaii - Project Proposal</title>
+    <link rel="stylesheet" href="final proposal.css">
+</head>
+<body>
+
+    <header>
+        <h1>Explore Beautiful Hawaii</h1>
+        <p>Final Project Proposal</p>
+    </header>
+
+    <section>
+        <h2>1. Title and Topic</h2>
+
+        <p>
+            My project title is Explore Beautiful Hawaii.
+            My website will introduce people to beautiful
+            places, beaches, food, and activities in Hawaii.
+        </p>
+
+        <p>
+            I chose this topic because Hawaii has many
+            interesting places and a beautiful environment.
+            I want visitors to learn more about Hawaii
+            and discover places they can visit.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Five Content Pages</h2>
+
+        <ol>
+            <li>
+                <strong>Home:</strong>
+                An introduction to Hawaii and the website.
+            </li>
+
+            <li>
+                <strong>Beaches:</strong>
+                Information about Waikiki Beach,
+                Lanikai Beach, and Sunset Beach.
+            </li>
+
+            <li>
+                <strong>Attractions:</strong>
+                Information about Pearl Harbor,
+                Diamond Head, and Polynesian Cultural Center.
+            </li>
+
+            <li>
+                <strong>Food:</strong>
+                Information about poke, loco moco,
+                malasadas, and kalua pig.
+            </li>
+
+            <li>
+                <strong>Activities and Attractions Table:</strong>
+                Information about surfing, hiking,
+                snorkeling, and swimming, along with a
+                table comparing popular Hawaii attractions.
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>3. Table and Form Content</h2>
+
+        <h3>Table Information</h3>
+
+        <p>
+            My table will compare popular attractions
+            in Hawaii. It will include:
+        </p>
+
+        <ul>
+            <li>Place name</li>
+            <li>Location</li>
+            <li>Activity</li>
+            <li>Estimated cost</li>
+        </ul>
+
+        <h3>Form Information</h3>
+
+        <p>
+            My form will collect information from visitors.
+            It will include:
+        </p>
+
+        <ul>
+            <li>Full name</li>
+            <li>Email address</li>
+            <li>Favorite Hawaiian island</li>
+            <li>Comments and suggestions</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Content Collection and References</h2>
+
+        <p>
+            I will collect information by researching
+            reliable websites about Hawaii. I will use
+            these sources to learn about different beaches,
+            attractions, food, and activities. I will write
+            the descriptions in my own words. I will also
+            find appropriate pictures from sources that
+            allow people to use their images and give
+            credit when required.
+        </p>
+
+        <p>My references include:</p>
+
+        <ol>
+            <li>
+                Go Hawaii -
+                <a href="https://www.gohawaii.com/">
+                    Official Hawaii Tourism Website
+                </a>
+            </li>
+
+            <li>
+                Hawaii State Government -
+                <a href="https://portal.ehawaii.gov/">
+                    Official Government Website
+                </a>
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>5. Warning Acknowledgment</h2>
+
+        <p>
+            I have read and understand the project warnings.
+            I understand that I must create my own original
+            website content and follow the requirements
+            for using information and images.
+        </p>
+    </section>
+
+    <footer>&copy; Haroon Suba</footer>
+
+</body>
+</html>
+```
